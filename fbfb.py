@@ -4,4 +4,7 @@
 # 숫자의 범위는 1~45
 
 for i in range(1, 45 + 1):
-    print(i)
+    if i % 3 == 0:
+        print('fizz')
+    else:
+        print(i)
