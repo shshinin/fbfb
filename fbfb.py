@@ -3,5 +3,5 @@
 # 숫자가 15의 배수이면 fizzbuzz를 출력
 # 숫자의 범위는 1~45
 
-for i in range(1, 45 + 1)
+for i in range(1, 45 + 1):
     print(i)
