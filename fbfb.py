@@ -4,11 +4,4 @@
 # 숫자의 범위는 1~45
 
 for i in range(1, 45 + 1):
-    if i % 15 == 0:
-        print('fizzbuzz')
-    elif i % 3 == 0:
-        print('fizz')
-    elif i % 5 == 0:
-        print('buzz')
-    else:
-        print(i)
+    print(str(i) * (i % 3 != 0 and i % 5 != 0) + 'fizz' * (i % 3 == 0) + 'buzz' * (i % 5 == 0))
